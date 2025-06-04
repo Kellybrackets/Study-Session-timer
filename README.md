@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+## Study session timer
 
 ## Project info
 
