@@ -1,6 +1,6 @@
 # ⏱️ Study Session Timer
 
-![App Screenshot](./screenshot.png) <!-- Add actual screenshot -->
+![App Screenshot](studysession1.gif) <!-- Add actual screenshot -->
 
 A productivity-focused timer application built with modern web technologies to help you manage study sessions effectively.
 
