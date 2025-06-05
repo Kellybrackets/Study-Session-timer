@@ -1,47 +1,87 @@
-## Study session timer
+# ⏱️ Study Session Timer
 
-**Use your preferred IDE**
+![App Screenshot](./screenshot.png) <!-- Add actual screenshot -->
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+A productivity-focused timer application built with modern web technologies to help you manage study sessions effectively.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 
-Follow these steps:
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm v9+ (or pnpm/yarn)
+- Git
+
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone (https://github.com/Kellybrackets/Study-Session-timer.git)
+# 1. Clone the repository
+git clone https://github.com/Kellybrackets/Study-Session-timer.git
 
-# Step 2: Navigate to the project directory.
-cd Study-Session-timer.git
+# 2. Navigate to project directory
+cd Study-Session-timer
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### The app will be available at http://localhost:5173
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🛠️ Technology Stack
 
-**Use GitHub Codespaces**
+Vite	Blazing fast build tool
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+React 18	Component-based UI
 
-## What technologies are used for this project?
+TypeScript	Type-safe JavaScript
 
-This project is built with:
+shadcn-ui	Beautiful, accessible components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Tailwind CSS	Utility-first styling
+
+### 🌟 Features
+
+🕒 Pomodoro-style timer with customizable intervals
+
+📊 Session tracking and statistics
+
+🎨 Clean, distraction-free interface
+
+🌙 Dark/light mode support
+
+📱 Fully responsive design
+
+📂 Project Structure
+```
+Study-Session-timer/
+├── src/
+│   ├── components/   # Reusable UI components
+│   ├── hooks/        # Custom React hooks
+│   ├── lib/          # Utility functions
+│   ├── styles/       # Global styles
+│   ├── App.tsx       # Main application
+│   └── main.tsx      # Entry point
+├── public/           # Static assets
+├── .eslintrc.json    # Linting config
+├── tailwind.config.js # Tailwind config
+└── vite.config.ts    # Vite config
+```
+🤝 Contributing
+We welcome contributions! Here's how:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/your-feature)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature/your-feature)
+
+Open a Pull Request
